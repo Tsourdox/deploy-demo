@@ -19,7 +19,7 @@ app.get('/error', (req, res) => {
   throw new Error('Secret error');
 });
 
-app.get('/api', (req, res) => {
+app.get('/api', (req, res) => 
   res.json({ message: 'Hello from the server' });
 });
 
