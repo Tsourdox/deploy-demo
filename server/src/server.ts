@@ -3,7 +3,6 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  console.error(new Error('Hello Error'));
   res.json({ message: 'Hello World' });
 });
 
